@@ -21,7 +21,7 @@ python D:\projects\Python\AutoHit.py
 
 这样就可以高枕无忧啦~
 
-**P.S.**chromedriver的安装：
+**P.S.** chromedriver的安装：
   - 在Chrome设置->关于Chrome查到所使用的Chrome版本号
   - 在[这里](http://npm.taobao.org/mirrors/chromedriver/)下载对应版本的chromedriver
   - 将解压后的chromedriver.exe所在目录放到Path里
