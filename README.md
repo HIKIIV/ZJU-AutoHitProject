@@ -10,7 +10,7 @@
 1. 安装selenium库。可以直接在命令行中输入`pip install selenium`
 2. 安装chromedriver(具体见P.S.)
 3. 下载上面的AutoHit.py
-4. 把Auto.py里57行的Sno和Psw改成自己浙大统一身份认证的学号和密码（都是字符串）
+4. 把AutoHit.py里57行的Sno和Psw改成自己浙大统一身份认证的学号和密码（都是字符串）
 5. 可以写一个批处理如
 ```bat
 ping localhost -n 4
@@ -21,7 +21,7 @@ python D:\projects\Python\AutoHit.py
 
 这样就可以高枕无忧啦~
 
-P.S.chromedriver的安装：
+**P.S.**chromedriver的安装：
   - 在Chrome设置->关于Chrome查到所使用的Chrome版本号
   - 在[这里](http://npm.taobao.org/mirrors/chromedriver/)下载对应版本的chromedriver
   - 将解压后的chromedriver.exe所在目录放到Path里
