@@ -5,7 +5,7 @@
 这是一个针对ZJU每日健康上报的自动打卡小玩意儿，用了不能再水的selenium库。
 本来是打算将它部署到树莓派上的，然而发现我的Raspbian系统是32位的，但chromedriver没有Linux下对应32位的版本...后来尝试用Firefox的geckodriver，又因神秘原因失败...最后只好部署在Windows下，设置成开机自动启动，这样只要我在某一天内打开了我的电脑，就不用怕这一天忘记打卡了qwq。
 
-### 食用说明：
+### 食用说明：（巨佬们请忽略）
 0. 需正确安装python(一切的前提)，Chrome浏览器(若使用其他浏览器需下载对应的驱动并在代码里做相应改动)
 1. 安装selenium库。可以直接在命令行中输入`pip install selenium`
 2. 安装chromedriver(具体见P.S.)
