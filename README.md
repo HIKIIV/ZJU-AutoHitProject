@@ -10,11 +10,13 @@
 1. 安装selenium库。可以直接在命令行中输入`pip install selenium`
 2. 安装chromedriver(具体见P.S.)
 3. 下载上面的AutoHit.py
-4. 可以写一个批处理如
+4. 把Auto.pyXX行的Sno和Psw改成自己浙大统一身份认证的学号和密码
+5. 可以写一个批处理如
 ```bat
 ping localhost -n 4
 python D:\projects\Python\AutoHit.py
 ```
+（里面应改成自己下载后AutoHit的位置）
 并把它放到C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp目录下（在有的电脑上可能会有中文路径）
 
 这样就可以高枕无忧啦~
